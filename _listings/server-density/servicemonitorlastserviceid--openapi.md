@@ -21,7 +21,7 @@ paths:
         configure in the ui. The section correspond to the top-level of the alert
         metric whereas field corresponds to the subsection of the given section.
       operationId: listing-service-alert-metrics
-      x-api-path-slug: alertsservice-alertsjson-
+      x-api-path-slug: alertsservice-alerts-json-
       parameters:
       - in: query
         name: token

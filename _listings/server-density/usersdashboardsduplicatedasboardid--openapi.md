@@ -4,7 +4,7 @@ x-collection-name: Server Density
 x-complete: 0
 info:
   title: Dashboards API Duplicating a dashboard
-  description: ""
+  description: Duplicating a dashboard.
   version: 1.0.0
 host: api.serverdensity.io.
 schemes:
@@ -17,7 +17,7 @@ paths:
   /users/dashboards/dashboardId:
     "":
       summary: Deleting a dashboard
-      description: ""
+      description: Deleting a dashboard.
       operationId: deleting-a-dashboard
       x-api-path-slug: usersdashboardsdashboardid-
       parameters:
@@ -72,7 +72,7 @@ paths:
   /users/dashboards/duplicate/dasboardId:
     "":
       summary: Duplicating a dashboard
-      description: ""
+      description: Duplicating a dashboard.
       operationId: duplicating-a-dashboard
       x-api-path-slug: usersdashboardsduplicatedasboardid-
       parameters:

@@ -4,7 +4,7 @@ x-collection-name: Server Density
 x-complete: 0
 info:
   title: Widgets API Duplicating a widget
-  description: ""
+  description: Duplicating a widget.
   version: 1.0.0
 host: api.serverdensity.io.
 schemes:
@@ -17,7 +17,7 @@ paths:
   /users/widgets/widgetId:
     "":
       summary: Deleting a widget
-      description: ""
+      description: Deleting a widget.
       operationId: deleting-a-widget
       x-api-path-slug: userswidgetswidgetid-
       parameters:
@@ -52,7 +52,7 @@ paths:
   /users/widgets/duplicate/widgetId:
     "":
       summary: Duplicating a widget
-      description: ""
+      description: Duplicating a widget.
       operationId: duplicating-a-widget
       x-api-path-slug: userswidgetsduplicatewidgetid-
       parameters:

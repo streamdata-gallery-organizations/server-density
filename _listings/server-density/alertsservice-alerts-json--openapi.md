@@ -3,8 +3,10 @@ swagger: "2.0"
 x-collection-name: Server Density
 x-complete: 0
 info:
-  title: Widgets API Deleting a widget
-  description: Deleting a widget.
+  title: Service Status API Listing service alert metrics
+  description: Devices and services have different alert metrics which you can configure
+    in the ui. The section correspond to the top-level of the alert metric whereas
+    field corresponds to the subsection of the given section.
   version: 1.0.0
 host: api.serverdensity.io.
 schemes:
@@ -14,25 +16,18 @@ produces:
 consumes:
 - application/json
 paths:
-  /users/widgets/widgetId:
+  /alerts/service_alerts.json:
     "":
-      summary: Deleting a widget
-      description: Deleting a widget.
-      operationId: deleting-a-widget
-      x-api-path-slug: userswidgetswidgetid-
+      summary: Listing service alert metrics
+      description: Devices and services have different alert metrics which you can
+        configure in the ui. The section correspond to the top-level of the alert
+        metric whereas field corresponds to the subsection of the given section.
+      operationId: listing-service-alert-metrics
+      x-api-path-slug: alertsservice-alerts-json-
       parameters:
-      - in: path
+      - in: query
         name: token
         description: Your API token
-        type: string
-      - in: body
-        name: token
-        description: Your API token
-        schema:
-          $ref: '#/definitions/holder'
-      - in: path
-        name: widgetId
-        description: The ID of the widget to delete
         type: string
       responses:
         apps:
@@ -48,7 +43,7 @@ paths:
         team_admin_actions:
           description: sf_external_accept_allow
       tags:
-      - Widgets
+      - Alerts
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

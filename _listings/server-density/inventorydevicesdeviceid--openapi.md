@@ -25,7 +25,7 @@ paths:
       parameters:
       - in: body
         name: cpuCores
-        description: "Item\u2019s number of cores"
+        description: Items number of cores
         schema:
           $ref: '#/definitions/holder'
       - in: body
@@ -35,7 +35,7 @@ paths:
           $ref: '#/definitions/holder'
       - in: body
         name: hostname
-        description: "Device\u2019s hostname"
+        description: Devices hostname
         schema:
           $ref: '#/definitions/holder'
       - in: body
@@ -61,7 +61,7 @@ paths:
           $ref: '#/definitions/holder'
       - in: body
         name: privateIPs
-        description: "Item\u2019s private IP addresses as a JSON encoded list"
+        description: Items private IP addresses as a JSON encoded list
         schema:
           $ref: '#/definitions/holder'
       - in: body
@@ -71,12 +71,12 @@ paths:
           $ref: '#/definitions/holder'
       - in: body
         name: publicIPs
-        description: "Item\u2019s public IP addresses as a JSON encoded list"
+        description: Items public IP addresses as a JSON encoded list
         schema:
           $ref: '#/definitions/holder'
       - in: body
         name: swapSpace
-        description: "Item\u2019s swap space"
+        description: Items swap space
         schema:
           $ref: '#/definitions/holder'
       - in: body
@@ -117,11 +117,11 @@ paths:
       parameters:
       - in: path
         name: cpuCores
-        description: "Item\u2019s number of cores"
+        description: Items number of cores
         type: string
       - in: body
         name: cpuCores
-        description: "Item\u2019s number of cores"
+        description: Items number of cores
         schema:
           $ref: '#/definitions/holder'
       - in: path
@@ -139,11 +139,11 @@ paths:
           $ref: '#/definitions/holder'
       - in: path
         name: hostname
-        description: "Item\u2019s hostname"
+        description: Items hostname
         type: string
       - in: body
         name: hostname
-        description: "Item\u2019s hostname"
+        description: Items hostname
         schema:
           $ref: '#/definitions/holder'
       - in: path
@@ -175,11 +175,11 @@ paths:
           $ref: '#/definitions/holder'
       - in: path
         name: privateIPs
-        description: "Item\u2019s private IP addresses as a JSON encoded list"
+        description: Items private IP addresses as a JSON encoded list
         type: string
       - in: body
         name: privateIPs
-        description: "Item\u2019s private IP addresses as a JSON encoded list"
+        description: Items private IP addresses as a JSON encoded list
         schema:
           $ref: '#/definitions/holder'
       - in: path
@@ -202,20 +202,20 @@ paths:
           $ref: '#/definitions/holder'
       - in: path
         name: publicIPs
-        description: "Item\u2019s public IP addresss as a JSON encoded list"
+        description: Items public IP addresss as a JSON encoded list
         type: string
       - in: body
         name: publicIPs
-        description: "Item\u2019s public IP addresss as a JSON encoded list"
+        description: Items public IP addresss as a JSON encoded list
         schema:
           $ref: '#/definitions/holder'
       - in: path
         name: swapSpace
-        description: "Item\u2019s swap space"
+        description: Items swap space
         type: string
       - in: body
         name: swapSpace
-        description: "Item\u2019s swap space"
+        description: Items swap space
         schema:
           $ref: '#/definitions/holder'
       - in: path

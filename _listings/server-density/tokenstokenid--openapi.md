@@ -4,7 +4,7 @@ x-collection-name: Server Density
 x-complete: 0
 info:
   title: Tokens API Delete a token
-  description: ""
+  description: Delete a token.
   version: 1.0.0
 host: api.serverdensity.io.
 schemes:
@@ -61,7 +61,7 @@ paths:
   /tokens/:
     "":
       summary: Create a token
-      description: ""
+      description: Create a token.
       operationId: create-a-token
       x-api-path-slug: tokens-
       parameters:
@@ -96,7 +96,7 @@ paths:
   /tokens/tokenId:
     "":
       summary: Delete a token
-      description: ""
+      description: Delete a token.
       operationId: delete-a-token
       x-api-path-slug: tokenstokenid-
       parameters:
