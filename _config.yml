@@ -4,7 +4,7 @@ url: server-density.streamdata.gallery
 tag: Server Density
 markdown: kramdown
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
-github_user: streamdata-gallery-entities
+github_user: streamdata-gallery-topics
 github_repo: server-density
 github_branch: master
 collections:
