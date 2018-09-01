@@ -16,7 +16,7 @@ consumes:
 paths:
   ? '/alerts?check_id={check_id}&amp;severity={severity}&amp;enabled={enabled}&amp;target_type={target_type}&amp;target_id={target_id} '
   : ' get ':
-      summary: Alerts?check_id={check_id}&amp;severity={severity}&amp;enabled={enabled}&amp;target_type={target_type}&amp;target_id={target_id}
+      summary: Alerts
       description: Gets alerts filtered by set of optional parameters.
       operationId: -alertscheck-idcheck-idampseverityseverityampenabledenabledamptarget-typetarget-typeamptarget-idtarg
       x-api-path-slug: alertscheck-idcheck-idampseverityseverityampenabledenabledamptarget-typetarget-typeamptarget-idtarget-id-get
@@ -27,7 +27,7 @@ paths:
       - Alerts
   '/alerts/{alert_id} ':
     ' get ':
-      summary: Alerts {alert_id}
+      summary: Alerts
       description: Gets alert by Id.
       operationId: -alerts-alert-id-
       x-api-path-slug: alertsalert-id-get
@@ -37,7 +37,7 @@ paths:
       tags:
       - Alerts
     ' put ':
-      summary: Alerts {alert_id}
+      summary: Alerts
       description: Updates alert.
       operationId: -alerts-alert-id-
       x-api-path-slug: alertsalert-id-put
@@ -47,7 +47,7 @@ paths:
       tags:
       - Alerts
     ' delete ':
-      summary: Alerts {alert_id}
+      summary: Alerts
       description: Deletes alert by Id.
       operationId: -alerts-alert-id-
       x-api-path-slug: alertsalert-id-delete
@@ -58,7 +58,7 @@ paths:
       - Alerts
   '/alerts/{alert_type} ':
     ' post ':
-      summary: Alerts {alert_type}
+      summary: Alerts
       description: Creates a new alert.
       operationId: -alerts-alert-type-
       x-api-path-slug: alertsalert-type-post
@@ -81,7 +81,7 @@ paths:
       - Alerts
   '/alerts/recipients/{recipient_id} ':
     ' get ':
-      summary: Alerts Recipients {recipient_id}
+      summary: Alerts Recipients
       description: Gets a information about alert recipient's targets.
       operationId: -alerts-recipients-recipient-id-
       x-api-path-slug: alertsrecipientsrecipient-id-get
@@ -92,7 +92,7 @@ paths:
       - Alerts
   '/alerts/recipient/{recipient_id} ':
     ' put ':
-      summary: Alerts Recipient {recipient_id}
+      summary: Alerts Recipient
       description: Updates recipient along with sms and email targets associated.
       operationId: -alerts-recipient-recipient-id-
       x-api-path-slug: alertsrecipientrecipient-id-put

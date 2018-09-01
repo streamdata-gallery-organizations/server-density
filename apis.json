@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - Server Density",
+	"description": "This is a repository of server density APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/server-density.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-31",
+	"url": "http://server-density.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Server Density",
+			"x-api-slug": "server-density",
+			"description": "SaaS infrastructure monitoring. Dashboards, graphs and alerts to help you improve performance and maintain uptime. Organizer of @humanops",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/475-server-density.jpg",
+			"humanURL": "https://www.serverdensity.com",
+			"baseURL": "://api.serverdensity.io./",
+			"tags": "Server Density",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/server-density/master/_listings/server-density/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Server Density",
+	"include": [
+		{
+			"name": "Server Density",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/server-density/master/_listings/server-density/apis.yaml"
+		}
+	]
+}

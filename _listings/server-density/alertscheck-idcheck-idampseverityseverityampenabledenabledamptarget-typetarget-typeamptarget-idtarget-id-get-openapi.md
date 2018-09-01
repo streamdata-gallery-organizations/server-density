@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Server Density
 x-complete: 0
 info:
-  title: Alerts API Alerts?check_id={check_id}&amp;severity={severity}&amp;enabled={enabled}&amp;target_type={target_type}&amp;target_id={target_id}
+  title: Alerts API Alerts
   description: Gets alerts filtered by set of optional parameters.
   version: 1.0.0
 host: api.serverdensity.io.
@@ -16,7 +16,7 @@ consumes:
 paths:
   ? '/alerts?check_id={check_id}&amp;severity={severity}&amp;enabled={enabled}&amp;target_type={target_type}&amp;target_id={target_id} '
   : ' get ':
-      summary: Alerts?check_id={check_id}&amp;severity={severity}&amp;enabled={enabled}&amp;target_type={target_type}&amp;target_id={target_id}
+      summary: Alerts
       description: Gets alerts filtered by set of optional parameters.
       operationId: -alertscheck-idcheck-idampseverityseverityampenabledenabledamptarget-typetarget-typeamptarget-idtarg
       x-api-path-slug: alertscheck-idcheck-idampseverityseverityampenabledenabledamptarget-typetarget-typeamptarget-idtarget-id-get
